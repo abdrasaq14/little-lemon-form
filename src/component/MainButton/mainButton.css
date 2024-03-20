@@ -1,0 +1,34 @@
+.main-btn-component {
+  background-color: var(--orange-color);
+  color: #000000;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 0.5rem 0;
+  transition: all 0.3s ease-in-out;
+}
+.main-btn-component:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.main-btn-component:disabled:hover {
+  background-color: grey;
+  color: #000;
+  cursor: not-allowed;
+  border: 1px solid grey;
+}
+.main-btn-component:hover {
+  background-color: var(--hover-color);
+  color: #fff;
+
+  transition: all 0.3s ease-in-out;
+}
+.change-bg {
+  background-color: #ffff;
+}

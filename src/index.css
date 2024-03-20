@@ -1,0 +1,50 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+}
+
+h1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 3.5rem;
+}
+h2,
+h3 {
+  font-family: "Outfit", sans-serif;
+  font-size: 2.5rem;
+}
+
+h4,
+h5,
+h6 {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+/* global.css */
+:root {
+  --orange-color: #e0cf16;
+  --hover-color: #8a7f01;
+  --black-color: #000;
+  --normal-text-color: #00000080;
+  --input-placeholder-color: #00000080;
+  --input-border-color: #bdbdbd;
+  --price-green-color: #f0f3ff;
+}
